@@ -12,28 +12,26 @@
 2. 点击 **New repository**，名称例如 `kdli-website`
 3. 选择 **Public**
 
-### 2. 上传网站文件
+### 2. 推送代码（本地已 `git init` 并完成首次提交）
 
-在终端进入网站目录：
+在 [GitHub 新建仓库](https://github.com/new)（例如 `kdli-website`，**不要**勾选 “Add a README”），然后执行：
 
 ```bash
 cd "/Users/leyanwu/Library/CloudStorage/OneDrive-DukeUniversity/website"
-git init
-git add .
-git commit -m "Initial site for Duke Kunshan Law Institute"
-git branch -M main
 git remote add origin https://github.com/你的用户名/kdli-website.git
 git push -u origin main
 ```
 
 ### 3. 开启 GitHub Pages
 
-1. 打开仓库 → **Settings** → **Pages**
-2. **Source** 选 `Deploy from a branch`
-3. **Branch** 选 `main`，文件夹选 `/ (root)`
-4. 保存后等待 1–3 分钟
+1. 仓库 → **Settings** → **Pages**
+2. **Build and deployment** → **Source** 选 **GitHub Actions**
+3. 推送 `main` 后，Actions 会自动部署（工作流文件已包含在 `.github/workflows/pages.yml`）
+4. 约 1–3 分钟后，在 **Settings → Pages** 查看站点 URL
 
 网站地址为：`https://你的用户名.github.io/kdli-website/`
+
+> 若改用 “Deploy from a branch / main / root” 也可以，与本仓库的静态文件结构兼容。
 
 > 若使用自定义域名（如 `law.dukekunshan.edu.cn`），需学校 IT 在 DNS 添加 CNAME 记录，并在 GitHub Pages 填写 Custom domain。
 
