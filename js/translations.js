@@ -1,9 +1,10 @@
 const TRANSLATIONS = {
   en: {
-    siteName: "Duke Kunshan Law Institute",
+    siteName:
+      "Duke Kunshan University Institute for Law, Markets, and Society",
     universityName: "Duke Kunshan",
-    siteNameShort: "KDLI",
-    tagline: "Research at the intersection of law, markets, and society",
+    siteNameShort: "ILMS",
+    tagline: "Research on law, markets, and society",
     nav: {
       home: "Home",
       about: "About",
@@ -45,9 +46,10 @@ const TRANSLATIONS = {
       hiring: "Student Worker Hiring",
     },
     home: {
-      heroTitle: "Duke Kunshan Law Institute",
+      heroTitle:
+        "Duke Kunshan University Institute for Law, Markets, and Society",
       heroSubtitle:
-        "A research institute at Duke Kunshan advancing interdisciplinary scholarship on law, capital markets, and ethical market governance.",
+        "An institute at Duke Kunshan University dedicated to interdisciplinary research on law, markets, and society.",
       newsTitle: "News",
       newsPlaceholder:
         "Institute news and announcements will appear here. Check back for updates on lectures, publications, and research initiatives.",
@@ -64,7 +66,7 @@ const TRANSLATIONS = {
       mission: {
         title: "Mission",
         lead: "Our mission is to foster rigorous, interdisciplinary scholarship on law and market development.",
-        p1: "The Duke Kunshan Law Institute at Duke Kunshan brings together legal scholars, economists, historians, and practitioners to study how legal institutions shape—and are shaped by—capital markets and market society.",
+        p1: "The Duke Kunshan University Institute for Law, Markets, and Society brings together legal scholars, economists, historians, and practitioners to study how legal institutions, markets, and social norms interact and evolve.",
         p2: "We support empirical research, oral history, policy dialogue, and student engagement on campus and with partners worldwide.",
       },
       people: {
@@ -133,17 +135,17 @@ const TRANSLATIONS = {
     },
     footer: {
       rights:
-        "© Duke Kunshan Law Institute, Duke Kunshan. All rights reserved.",
+        "© Duke Kunshan University Institute for Law, Markets, and Society. All rights reserved.",
     },
     langToggle: "中文",
     placeholderName: "Name TBA",
     placeholderRole: "Profile coming soon",
   },
   zh: {
-    siteName: "昆山杜克法律研究所",
+    siteName: "昆山杜克大学法律、市场与社会研究院",
     universityName: "昆山杜克",
-    siteNameShort: "KDLI",
-    tagline: "法律、市场与社会交叉领域的研究",
+    siteNameShort: "ILMS",
+    tagline: "法律、市场与社会领域的研究",
     nav: {
       home: "首页",
       about: "关于我们",
@@ -185,12 +187,12 @@ const TRANSLATIONS = {
       hiring: "学生助理招聘",
     },
     home: {
-      heroTitle: "昆山杜克法律研究所",
+      heroTitle: "昆山杜克大学法律、市场与社会研究院",
       heroSubtitle:
-        "昆山杜克法律研究所，致力于法律、资本市场与伦理市场治理的跨学科研究。",
+        "昆山杜克大学法律、市场与社会研究院，致力于法律、市场与社会领域的跨学科研究。",
       newsTitle: "新闻动态",
       newsPlaceholder:
-        "研究所新闻与公告将在此发布，包括讲座、出版物与研究项目等最新信息。",
+        "研究院新闻与公告将在此发布，包括讲座、出版物与研究项目等最新信息。",
       readMore: "了解更多",
     },
     contact: {
@@ -203,7 +205,7 @@ const TRANSLATIONS = {
       mission: {
         title: "使命",
         lead: "我们的使命是推动法律与市场发展领域的严谨、跨学科学术研究。",
-        p1: "昆山杜克法律研究所隶属于昆山杜克，汇聚法学、经济学、历史学与实践领域的学者，研究法律制度如何塑造资本市场与市场社会，以及反过来如何被其塑造。",
+        p1: "昆山杜克大学法律、市场与社会研究院汇聚法学、经济学、历史学与实践领域的学者，研究法律制度、市场机制与社会规范如何相互作用与演变。",
         p2: "我们在校内及全球合作伙伴的支持下，开展实证研究、口述史、政策对话与学生培养。",
       },
       people: {
@@ -220,7 +222,7 @@ const TRANSLATIONS = {
         lead: "通过数据、叙事与口述史记录中国资本市场的发展历程。",
         databaseDesc: "关于中国资本市场发展的结构化历史资料库。",
         interviewsDesc: "与市场参与者、监管者及学者的访谈记录。",
-        reportsDesc: "研究所研究员撰写的分析报告与工作论文。",
+        reportsDesc: "研究院研究员撰写的分析报告与工作论文。",
       },
       lawMarket: {
         title: "市场经济中的法律",
@@ -254,17 +256,17 @@ const TRANSLATIONS = {
       },
       studentResearch: {
         title: "学生科研",
-        lead: "学生参与研究所项目的机会。",
+        lead: "学生参与研究院项目的机会。",
         placeholder: "研究助理与独立研究岗位将在此列出。",
       },
       hiring: {
         title: "学生助理招聘",
-        lead: "支持研究所运营与研究的兼职岗位。",
+        lead: "支持研究院运营与研究的兼职岗位。",
         placeholder: "开放的学生助理职位与申请说明将在此发布。",
       },
     },
     footer: {
-      rights: "© 昆山杜克法律研究所 · 昆山杜克 版权所有",
+      rights: "© 昆山杜克大学法律、市场与社会研究院 版权所有",
     },
     langToggle: "EN",
     placeholderName: "待定",

@@ -1,4 +1,4 @@
-# 昆山杜克法律研究所 / Duke Kunshan Law Institute
+# 昆山杜克大学法律、市场与社会研究院 / Duke Kunshan University Institute for Law, Markets, and Society
 
 Bilingual (中文 / English) static website for a research institute at **Duke Kunshan** (昆山杜克).
 
