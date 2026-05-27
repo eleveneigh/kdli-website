@@ -22,16 +22,16 @@ git remote add origin https://github.com/你的用户名/kdli-website.git
 git push -u origin main
 ```
 
-### 3. 开启 GitHub Pages
+### 3. 开启 GitHub Pages（必做，否则网站无法访问）
 
-1. 仓库 → **Settings** → **Pages**
-2. **Build and deployment** → **Source** 选 **GitHub Actions**
-3. 推送 `main` 后，Actions 会自动部署（工作流文件已包含在 `.github/workflows/pages.yml`）
-4. 约 1–3 分钟后，在 **Settings → Pages** 查看站点 URL
+1. 打开：https://github.com/eleveneigh/kdli-website/settings/pages  
+2. **Build and deployment** → **Source** 选 **Deploy from a branch**
+3. **Branch** 选 `main`，文件夹选 **/ (root)**，点 **Save**
+4. 等待 1–3 分钟，页面上方会出现绿色网址
 
-网站地址为：`https://你的用户名.github.io/kdli-website/`
+网站地址：**https://eleveneigh.github.io/kdli-website/**
 
-> 若改用 “Deploy from a branch / main / root” 也可以，与本仓库的静态文件结构兼容。
+> 若曾启用 GitHub Actions 部署并报错 `Get Pages site failed`，请按上面改用 **Deploy from a branch**，不要用 GitHub Actions 作为 Source。
 
 > 若使用自定义域名（如 `law.dukekunshan.edu.cn`），需学校 IT 在 DNS 添加 CNAME 记录，并在 GitHub Pages 填写 Custom domain。
 
