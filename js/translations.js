@@ -53,6 +53,12 @@ const TRANSLATIONS = {
       newsTitle: "News",
       newsPlaceholder:
         "Institute news and announcements will appear here. Check back for updates on lectures, publications, and research initiatives.",
+      affiliatesTitle: "Affiliated Organizations",
+      affiliatesLead:
+        "Links to our partner and sibling organizations across Duke Kunshan and beyond.",
+      affiliatesPlaceholder:
+        "Organization links will be published here once confirmed with our partners.",
+      affiliateNamePlaceholder: "Organization name TBA",
       readMore: "Read more",
     },
     contact: {
@@ -193,6 +199,10 @@ const TRANSLATIONS = {
       newsTitle: "新闻动态",
       newsPlaceholder:
         "研究院新闻与公告将在此发布，包括讲座、出版物与研究项目等最新信息。",
+      affiliatesTitle: "兄弟组织",
+      affiliatesLead: "与昆山杜克及相关合作伙伴组织的链接。",
+      affiliatesPlaceholder: "兄弟组织链接将在与对方组织确认后在此发布。",
+      affiliateNamePlaceholder: "组织名称待定",
       readMore: "了解更多",
     },
     contact: {

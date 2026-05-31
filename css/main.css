@@ -349,6 +349,47 @@ main {
   display: inline-block;
 }
 
+.section-lead {
+  margin: 0 0 1.5rem;
+  color: var(--text-muted);
+  max-width: 60ch;
+}
+
+/* Affiliated organizations */
+.affiliate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.affiliate-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  min-height: 4.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.affiliate-card--placeholder {
+  border-style: dashed;
+  background: var(--bg);
+}
+
+.affiliate-name {
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.affiliate-note {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
 /* News */
 .news-grid {
   display: grid;
